@@ -1,4 +1,4 @@
-# Subjects
+## Subjects
 
 1. Given a sorted array [x] of integers and f(x)=x^x function, write a program that will produce a sorted array [y] with y[i]=f(x[i]) elements in O(n) time.
 2. Write a program that will count the number of inversions in an array in O(nlogn) time.

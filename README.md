@@ -14,3 +14,6 @@
 12. Write a program that takes an integer and checks if it's a power of 4 in O(1).
 13. Write a program that takes n, p, r as integer arguments and swaps the bits of position p and r in n. Example: Input: n=11, i.e. (0...01011)2, p=1, r=4 Output: 25, i.e. (0....11001)2.
 14. Extend the swapping program(problem13) so that it takes the 4th integer q, indicating the number of bits to swap. Example: Input: n=47, i.e. (00101111)2, p=1, r=5, q=3 Output: 227, i.3. (11100011)2.
+Write C-style variadic function that takes a string and a bunch of numbers, and replaces each "#" symbol with corresponding number. replace("aa# nn # cc## e", 3, 12, -2, 1) should return "aa3 nn 12 cc-21 e".
+Solve problem17 using variadic template.
+Write a optimal function, that takes a positive integer n and returns the smallest power of 2 larger than n. Try to solve using O(1) time complexity.

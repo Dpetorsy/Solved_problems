@@ -17,3 +17,4 @@
 15. Write C-style variadic function that takes a string and a bunch of numbers, and replaces each "#" symbol with corresponding number. replace("aa# nn # cc## e", 3, 12, -2, 1) should return "aa3 nn 12 cc-21 e".
 16. Solve problem15 using variadic template.
 17. Write a optimal function, that takes a positive integer n and returns the smallest power of 2 larger than n. Try to solve using O(1) time complexity.
+18. Write a program using templates to calculate factorial of the given number.

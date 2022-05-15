@@ -18,3 +18,5 @@
 16. Solve problem15 using variadic template.
 17. Write a optimal function, that takes a positive integer n and returns the smallest power of 2 larger than n. Try to solve using O(1) time complexity.
 18. Write a program using templates to calculate factorial of the given number during compilation(compile time).
+19. Write problem18 using constexpr function.
+20. Write a program using templates to calculate nth Fibonacci number during compilation(compile time).

@@ -1,25 +1,19 @@
 #include <iostream>
 
-int nextPowerOfTwo(int num);
+template <unsigned long long num>
+struct Factorial {
+  enum { value = num * Factorial<num - 1>::value };
+};
+
+// base case
+template <>
+struct Factorial<0> {
+  enum { value = 1 };
+};
 
 int main()
 {
-    int num = 0;
-    
-    std::cout << "Print number: ";
-    std::cin >> num;
+    std::cout << Factorial<10>::value;
 
-    std::cout << "Next power of 2 is ";
-    std::cout << nextPowerOfTwo(num) << std::endl;
-}
-
-int nextPowerOfTwo(int num)
-{
-    num |= num >> 1;
-    num |= num >> 2;
-    num |= num >> 4;
-    num |= num >> 8;
-    num |= num >> 16;
-    
-    return (num + 1);
+    return 0;
 }

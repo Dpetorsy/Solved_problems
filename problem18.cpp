@@ -1,6 +1,6 @@
 #include <iostream>
 
-template <unsigned long long num>
+template <unsigned num>
 struct Factorial {
   enum { value = num * Factorial<num - 1>::value };
 };

@@ -22,4 +22,4 @@
 20. Write a program using templates to calculate nth Fibonacci number during compilation(compile time).
 21. Implement high order function, which multiply given 2 numbers, located in different parentheses. Use lambda expressions to solve this problem. Example: <code>mult(5)(8)</code> return value 40.
 22. Solve problem21 for 5 numbers, which locates in 5 different parentheses. Example: <code>mult(2)(7)(-8)(6)(3)</code> return value -2016.
-23.  Write a <code>saxpy()</code> function(SAXPY stands for “Single-Precision A·X Plus Y”), that take 3 vectors, and calculate <code>result[i] = 2 * a[i] + b[i]</code> expression for each element of the resulting vector. Use CUDA to calculate SAXPY on GPU.
+23.  Write a <code>saxpy()</code> function(SAXPY stands for “Single-Precision A·X Plus Y”), that takes 3 vectors, and calculate <code>result[i] = 2 * a[i] + b[i]</code> expression for each element of the resulting vector. Use CUDA to calculate SAXPY on GPU.

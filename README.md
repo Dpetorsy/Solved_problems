@@ -4,7 +4,7 @@ In this repository, I store my solved problems, which I have done as homework du
 
 ## 📑 Subjects
 
-1. Given a sorted array[x] of integers and the f(x)=x^x function, write a program that will produce a sorted array[y] with y[i] = f(x[i]) elements in O(n) time.
+1. Given a sorted `array[x]` of integers and the `f(x) = x^x` function, write a program that will produce a sorted `array[y]` with `y[i] = f(x[i])` elements in O(n) time.
 2. Write a program that will count the number of inversions in an array in O(nlogn) time.
 3. Given a NxN matrix, where N is a positive integer, write a program that will clockwise rotate the matrix 90 degrees. Write the non-in-place version using O(NxN) space.
 4. Write the in-place version for problem 3 using O(1) space. e.g: Input: n = 4, matrix: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16. Output: 13 9 5 1 14 10 6 2 15 11 7 3 16 12 8 4.
@@ -12,7 +12,7 @@ In this repository, I store my solved problems, which I have done as homework du
 6. Write an O(n) program to reverse the words in a string. E.g., Input: "abc defg hi klmn". Output: "klmn hi defg abc".
 7. Define a Student structure containing the following fields: "name" for first and last names, "group" for group number and grades for an array of 10 subjects. Write a function that will input n students from the given stream and save them, sorted by the average of their grades.
 8. Write a program that will take an input string and prints the data of students from problem 07 whose first name ends with the given string letters.
-9. Given an n-sized array of non-negative integers, write a program that will arrange the elements in such a way that their concatenation will produce the largest possible number. The function should return the resulting number as a single string. Note: Since the concatenation may produce a larger integer than allowed, to avoid overflow, use std::string.
+9. Given an n-sized array of non-negative integers, write a program that will arrange the elements in such a way that their concatenation will produce the largest possible number. The function should return the resulting number as a single string. Note: Since the concatenation may produce a larger integer than allowed, to avoid overflow, use `std::string`.
 10. Write a program that takes n and d integers as arguments, where d is necessarily a power of 2, and computes "n modulo d", namely the remainder, using bitwise operations, i.e. without % or /.
 11. Write a program that takes n and d integers as arguments and left-rotates n by d bits. Example: input: n = 16, i.e., (000...00010000)2; d = 2; output: 64, i.e., (000...01000000)2.
 12. Write a program that takes an integer and checks if it's a power of 4 in O(1).
